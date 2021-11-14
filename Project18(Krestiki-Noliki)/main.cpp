@@ -2,7 +2,6 @@
 #include<Windows.h>
 #include<conio.h>
 #include<ctime>
-#include<cstdlib>
 
 
 #define CLEAR system("cls")
@@ -14,18 +13,7 @@ void gotoxy(short x, short y) {
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), { x, y });
 }
 
-class Bot {
 
-public:
-	void random() {
-			std::cout << "rand_value = " << 1 + rand() % 9 << std::endl;
-	}
-
-	
-private:
-	
-
-};
 
 
 
