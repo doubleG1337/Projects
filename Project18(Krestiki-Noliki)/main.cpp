@@ -1004,7 +1004,7 @@ public:
 
 private:
 	char X_Skin = 'X';
-	char O_Skin = 'Y';
+	char O_Skin = 'O';
 	char map_Skin = '#';
 
 	int size = 10;
