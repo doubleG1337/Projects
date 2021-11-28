@@ -167,7 +167,7 @@ public:
 				break;
 			case'5': {
 				CLEAR;
-				std::cout << "\n[?]Кто ходит первым ?\n[1] Крестик\t[2]Нолик";
+				std::cout << "[?]Кто ходит первым ?\n[1] Крестик\t[2]Нолик";
 				char choose;
 				std::cout << "\n[>]";
 				std::cin >> choose;
